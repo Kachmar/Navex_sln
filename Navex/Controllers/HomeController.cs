@@ -11,8 +11,8 @@ namespace Navex.Controllers
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
-
-            return View();
+             
+            return View("~/AppFrontend/Public/test.cshtml");
         }
     }
 }
